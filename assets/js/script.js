@@ -37,7 +37,7 @@ if (passwordInt >= 8 && passwordInt <= 128){
     };
 
     // Symbol
-    if(Symbol == true){
+    if(symbol == true){
       emptyContainer += passSymbol;
     };
 
