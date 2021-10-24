@@ -27,7 +27,7 @@ if (passwordInt >= 8 && passwordInt <= 128){
     // prompts. If yes then add the appropritae varibles to the empty container
 
     // Lower case
-    if(lowerCase == ture){
+    if(lowerCase == true){
       emptyContainer += passLowerCase;
     };
 
