@@ -13,7 +13,7 @@ var generateBtn = document.querySelector("#generate");
 
 // If statement to determin the length of the password and check
 // to see if the password is at least 8 characters long
-if (passwordLength >= 8 && password <= 128){
+if (passwordInt >= 8 && passwordInt <= 128){
 
   // Function for generating passwords
   function generatePassword(){
