@@ -6,7 +6,7 @@ var upperCase = confirm("Does your password need an uppercase?");
 var symbol = confirm("Does your password need a symbol?");
 var number= confirm("Does your password need a number?");
 var passwordLength = prompt("What is the minimum length of your password?");
-var passwordInt = pasreInt(passwordLength);
+var passwordInt = parseInt(passwordLength);
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -37,7 +37,7 @@ if (passwordInt >= 8 && passwordInt <= 128){
     };
 
     // Symbol
-    if(passSymbol == true){
+    if(Symbol == true){
       emptyContainer += passSymbol;
     };
 
@@ -54,7 +54,7 @@ if (passwordInt >= 8 && passwordInt <= 128){
     return password;
   };
 }else{
-   alert("Password lewngth must be between 8 and 128 characters.");
+   alert("Password length must be between 8 and 128 characters.");
 };
 
 // Write password to the #password input
