@@ -19,7 +19,7 @@ This application is a simple password generator that you can use to generate a p
 None! To access the deployed application, please visit: https://kstaver.github.io/Password-Generator/.
 
 ## Usage
-Load up the application and use it to generate any password based on the password requirments that you need.
+Load up the application and use it to generate any password based on the password requirments that you need. For a general idea on how the app works, please watch this quick [video](https://youtu.be/wA_ZiQcMOgs).
 
 ## License
 This project is covered under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
